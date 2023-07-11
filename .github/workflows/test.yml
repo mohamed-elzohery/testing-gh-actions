@@ -5,6 +5,6 @@ jobs:
     runs-on: ububtu-latest
     steps: 
       - name: saying Hello
-      - run: echo "Hello"
+        run: echo "Hello"
       - name: saying bye
-      - run: echo "Done! Bye"
+        run: echo "Done! Bye"
