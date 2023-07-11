@@ -1,9 +1,11 @@
-name: first workflow  
-on: workflow_dispatch
-jobs: 
-  first_job: 
-    runs-on: ububtu-latest
-    steps: 
+name: first workflow
+on:
+  workflow_dispatch
+
+jobs:
+  first_job:
+    runs-on: ubuntu-latest
+    steps:
       - name: saying Hello
         run: echo "Hello"
       - name: saying bye
